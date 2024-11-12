@@ -1,1 +1,3 @@
-//12312312312312
+String.prototype.isUpperCase = function() {
+  return this.toUpperCase() === String(this);
+}
