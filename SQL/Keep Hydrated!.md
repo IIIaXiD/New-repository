@@ -1,0 +1,1 @@
+select id, hours, floor(0.5*hours) as liters from cycling;
